@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<title>FoodForFood - @ViewData["Title"]</title>
+    <title>FoodForFood - @ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -15,47 +15,47 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand">@ViewData["Title"]</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" style="border-left: 1px solid #d9d9d9; padding-left: 5px;">
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1" id="navbar">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
+                        <span class="spacer"></span>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Today">Today's Food</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Today">Today&#39;s Food</a>
                         </li>
-                      <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Week">This Week's Preview</a>
+                        <span class="spacer"></span>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Week">This Week&#39;s Preview</a>
                         </li>
-                      <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Add">Add New Recipies</a>
+                        <span class="spacer"></span>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Add">Add a Recipe</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container" id="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">&copy; <script>document.write(new Date().getFullYear())</script> - FoodForFood (F<sup>3</sup>) - <small><i>By a Fed up and Hungry Person</i></small></div>
+        <div class="container">&copy;
+        <script>document.write(new Date().getFullYear())</script> - FoodForFood (F<sup>3</sup>) - <small><i>By a Fed up and Hungry Person</i></small></div>
     </footer>
 
     <script type="text/javascript">
-     var navbar = document.getElementById("navbar").children;
-     for (var i = 0; i < navbar.length; i++) {
-						navbar[i].addEventListener("mouseover", function () { this.style.backgroundColor = "#d9d9d9" });
-						navbar[i].addEventListener("mouseout", function () { this.style.backgroundColor = "transparent" });
-     }
+        var navbar = document.getElementById("navbar").children;
+        for (var i = 0; i < navbar.length; i++) {
+            navbar[i].addEventListener("mouseover", function () { this.style.backgroundColor = "#d9d9d9" });
+            navbar[i].addEventListener("mouseout", function () { this.style.backgroundColor = "transparent" });
+        }
 
+        $("#navbar a").filter(function () {return $(this).text() === '@ViewData["Title"]'.replace("&#x27;", "'")}).parent().css({ "font-weight": "bold", "text-decoration": "underline" });
     </script>
 
     @RenderSection("Scripts", required: false)

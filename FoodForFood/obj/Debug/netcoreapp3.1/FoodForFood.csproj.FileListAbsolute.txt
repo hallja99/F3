@@ -8,7 +8,6 @@ D:\Users\Jake\Documents\GitHub\F3\FoodForFood\bin\Debug\netcoreapp3.1\FoodForFoo
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\bin\Debug\netcoreapp3.1\FoodForFood.pdb
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\bin\Debug\netcoreapp3.1\FoodForFood.Views.dll
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\bin\Debug\netcoreapp3.1\FoodForFood.Views.pdb
-D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFood.csprojAssemblyReference.cache
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFood.AssemblyInfoInputs.cache
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFood.AssemblyInfo.cs
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFood.csproj.CoreCompileInputs.cache
@@ -21,9 +20,12 @@ D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\scopedcss\
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFood.TagHelpers.input.cache
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFood.TagHelpers.output.cache
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFood.RazorCoreGenerate.cache
+D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\Razor\Pages\Add.cshtml.g.cs
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\Razor\Pages\Today.cshtml.g.cs
+D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\Razor\Pages\Week.cshtml.g.cs
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFood.RazorTargetAssemblyInfo.cache
@@ -33,6 +35,4 @@ D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFoo
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFood.pdb
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFood.genruntimeconfig.cache
 D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFood.csproj.CopyComplete
-D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\Razor\Pages\Today.cshtml.g.cs
-D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\Razor\Pages\Week.cshtml.g.cs
-D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\Razor\Pages\Add.cshtml.g.cs
+D:\Users\Jake\Documents\GitHub\F3\FoodForFood\obj\Debug\netcoreapp3.1\FoodForFood.csprojAssemblyReference.cache
